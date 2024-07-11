@@ -17,7 +17,7 @@ export function InviteGuestsStep({
       <button type="button" onClick={openGuestsModal} className='flex items-center gap-2 flex-1 text-left'>
         <UserRoundPlus className='size-5 text-zinc-400' />
         {emailsToInvite.length > 0 ? (
-          <span className='text-zinc-100 text-lg flex-1'>
+          <span className='text-zinc-100 text-lg'>
             {emailsToInvite.length} pessoa(s) convidada(s)
           </span>
         ) : (
